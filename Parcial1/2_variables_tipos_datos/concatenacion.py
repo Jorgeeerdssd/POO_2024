@@ -15,7 +15,7 @@ print("Mi nombre es ",nombre," Estoy en la especialidad de; ",especialesdad," en
 
 print("\n")
 
-#3er forma 
+#3er forma es la mas comun
 print(f"Mi nombre de; {nombre} especialida de; {especialesdad} en la carrera de {carrera}")
 
 print("\n")
