@@ -2,8 +2,8 @@
 cilo for estructurra interectiva que se ejecuta X veces 
 
 SINTAXIS 
-for variables in elemento_iterables(lista, rango, etc.)
-
+for variables in elemento_iterables(lista, rango, etc.):
+bloque de instrucciones
 
 """
 
