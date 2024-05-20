@@ -6,7 +6,7 @@ especialesdad="Area de desarrollo de SW Multiplataforma"
 carrera="Ingeniero en gestion y desarrollo de SW"
 
 #1er forma de concatenacion
-print ("Mi nombre es: "+nombre+, "estoy en la especialidad de; "+especialesdad", en la carrera de; "+carrera"")
+print ("Mi nombre es: "+nombre, "estoy en la especialidad de; "+especialesdad", en la carrera de; "+carrera"")
 
 print("\n")
 

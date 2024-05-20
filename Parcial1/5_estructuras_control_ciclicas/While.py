@@ -51,3 +51,10 @@ while contador<=10:
 # for contador in range (1,11):
 #     multi=contador*tabla
 #     print(f"{tabla}X{contador}={multi}")
+#creae un programa que permita calcula e imprimir el precio a pagar por un articulo.
+#En el precio a pagar se incluye el iva. El programa debera de funcionar n veces como el usuario desee
+
+nuevo_producto="s"
+while nuevo_producto == "s":
+    price=float(input("Ingresa el producto"))
+    

@@ -21,14 +21,14 @@ logico=False
 palabra="hola " 
 lista=[10,20,30,40]
 lista=["hola", True, '@',30,1.8]
-tupla= ("hola,"como","estas"")
+tupla= ("hola ,"como","estas"")
 
 diccionario= {
         "nombre":"jorge"
         "apellidos":"rosales"
         "especialidad":"TI"
         "edad":"20" 
-}   
+                        }   
 
 print (type (entero))
 print (type (real))
