@@ -8,3 +8,4 @@ print(type(pais))
 print(type(Continente))
 
 x=33
+x="iiiiiii"

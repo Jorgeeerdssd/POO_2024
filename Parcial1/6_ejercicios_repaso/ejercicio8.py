@@ -2,5 +2,8 @@
 n1=float(input("ingresa el numero"))
 n2=float(input("Ingresa el porcentaje"))
 
-porcentaje=n1*n2
-print("El porcentaje es;", porcentaje)
+numero = int(input("Ingresa un numero: "))
+porcentaje = int(input(f"Que porcentaje del numero {numero} quieres saber?: "))
+
+resultado = (numero * porcentaje) / 100
+print(f"El {porcentaje}% de {numero} es: {resultado}")
