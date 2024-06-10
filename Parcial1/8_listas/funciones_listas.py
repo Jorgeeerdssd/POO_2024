@@ -17,15 +17,34 @@ varios=["UTD",True,100,0.100]
 # print(varios)
 
 #agregar elemneto 
-print(numero)
-numero.append(100)#agregar valores 
-print(numero)
-numero.insert(len(numero),200)#agrega un elemento al final de la lista 
-print(numero)
+# print(numero)
+# numero.append(100)#agregar valores 
+# print(numero)
+# numero.insert(len(numero),200)#agrega un elemento al final de la lista 
+# print(numero)
 
 #remover elementos
-print(numero)
-numero.remove(100)
-print(numero)
-numero.pop(5)
-print(numero)
+# print(numero)
+# numero.remove(100)
+# print(numero)
+# numero.pop(5)
+# print(numero)
+
+#Dar la vuelta a los elemento de una lista
+print(varios)
+varios.reverse()
+print(varios)
+
+#Buscar un dato dentro de una lista
+encontro="Brasil" in paises
+print(encontro)
+
+#vaciar una lista o borrar un contenido de una lista 
+print(paises)
+paises.clear()
+print(paises)
+
+#Unir listas 
+print(varios)
+varios.extend(numero)
+print(varios)

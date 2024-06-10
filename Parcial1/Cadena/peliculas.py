@@ -18,6 +18,7 @@ while opcion:
         print("Eliminar Pelicula")
     elif opcion==4:
         print("Pelicula que desea editar")
-    elif opcion==5:
-        exit
+    if opcion==5:
+        break
+        
 
