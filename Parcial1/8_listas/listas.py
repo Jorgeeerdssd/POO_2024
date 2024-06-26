@@ -32,32 +32,32 @@ la lista es una coleccion ordenada y modificacbles, Permite Miembros duplicados
 #si no la encontro 
 
 # while (True):
-#     palabra=["hola","2024","10.23","True","hola","hola"]
-#     palabra_buscar=input("Ingresa la palabra a mostrar: ")
+#      palabra=["hola","2024","10.23","True","hola","hola"]
+#      palabra_buscar=input("Ingresa la palabra a mostrar: ")
 
-#     if palabra_buscar in palabra :
-#         print(f"La palabra {palabra_buscar}, en la posicion {palabra.count(palabra)}")    
+#      if palabra_buscar in palabra :
+#          print(f"La palabra {palabra_buscar}, en la posicion {palabra.count(palabra)}")    
 
-#         for i in range(len(palabra)):
-#             if palabra_buscar==palabra[i]:
-#                 print(f"Se encontro en esta posicion {i}")
+#          for i in range(len(palabra)):
+#              if palabra_buscar==palabra[i]:
+#                  print(f"Se encontro en esta posicion {i}")
             
-#     else:
-#         print(f"No se encontro la palabra dentro de la lista")
+#      else:
+#          print(f"No se encontro la palabra dentro de la lista")
   
 #Ejemplo 3, lista multilinea o multidimensional (matriz) para crear una agrenda telefonica
 
-# agenda=[
-#     ["Carlos",9168316843],
-#     ["Fernanado",618351684],
-#     ["Matias",1684312248],
-#     ["Juan",1563248621]
-# ]
+agenda=[
+      ["Carlos",9168316843],
+      ["Fernanado",618351684],
+      ["Matias",1684312248],
+      ["Juan",1563248621]
+  ]
 
-# print(agenda)
+print(agenda)
 
-# for i in agenda:
-#     print(f"{agenda.index(i)+1}.-{i}")
+for i in agenda:
+      print(f"{agenda.index(i)+1}.-{i}")
 
 #Ejemplo 4: crear un programa que permita Gestionar (administrar) peliculas, color un meno de opciones para agregar,
 #remover, consuktar peliculaa
@@ -65,6 +65,6 @@ la lista es una coleccion ordenada y modificacbles, Permite Miembros duplicados
 #1.- Utilizar funciones y mandar llamar desde otro archivo 
 #2.- Utilizar listas para almacenar los nombres de las peliculas 
 
-def nuevaPelicula():
-    peliculas.append(pelicula)
-    espera
+# def nuevaPelicula():
+#     peliculas.append(pelicula)
+#     espera
