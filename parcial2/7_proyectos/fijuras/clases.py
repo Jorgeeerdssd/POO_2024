@@ -31,7 +31,12 @@ def getInfo(self):
 
 class rectangulo(fijura):
   def __init__(self,largo,ancho):
-    super().__init__(largo,ancho)
+   
+   def getRactangulu(self):
+    return self.ancho, largo
+   
+   def setRectangulo(self):
+    
     self.largo=largo
     self.ancho=ancho
 
@@ -43,7 +48,7 @@ def calcular_area(self):
 
 class Circulo(fijura):
   def __init__(self,radio):
-    super().__init__(radio)
+   
     self.radio=radio
     
 
@@ -55,8 +60,8 @@ def calcular_area(self):
 
 class Triangulo(fijura):
   def __init__(self,altura,ancho):
-    super().__init__(altura,ancho)
-    self.altura
+   
+    self.altura=altura
     self.ancho=ancho
 
 def getInfo(self):

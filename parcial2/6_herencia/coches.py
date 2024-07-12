@@ -155,7 +155,7 @@ class Camionetas(Coches):
   def getTraccion(self):
     return self.traccion
 
-  def setCerrada(self,traccion):
+  def setCerrada(self,cerrada):
      self.cerrada=cerrada
 
   def getCerrada(self):
