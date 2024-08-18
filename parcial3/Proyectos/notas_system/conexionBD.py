@@ -1,14 +1,15 @@
 import mysql.connector
 
+#Conexion con la BD de MySQL
 try:
-    #Conectar con la BD en MySQL
     conexion=mysql.connector.connect(
         host='localhost',
         user='root',
         password='',
-        database='bd_notas'
+        database='notas_bd'  
     )
-    #Crear un objeto de tipo cursor que se pueda reutilizar nuevamente
+    #Se crea un cursor un objeto de tipo cursor con un parámetro que permite reutilizar el mismo objeto
     cursor=conexion.cursor(buffered=True)
-except:
-     print(f"Ocurrio un error con el Sistema por favor verifique ...")    
+    
+except Exception as e:
+    print(f"Ocurrió un error por favor vuelva inentar más tarde")

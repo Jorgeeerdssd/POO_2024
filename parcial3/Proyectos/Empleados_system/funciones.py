@@ -5,5 +5,3 @@ def borrarPantalla():
 
 def esperarTecla():
     input("Presiona cualquier tecla para continuar...")
-    input()
-
